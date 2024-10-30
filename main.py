@@ -21,7 +21,7 @@ def responder(pergunta: str, BancoDeDados: dict) -> str | None:
             return i["answer"]
         
 def chatbot():
-    BD: dict = Carregar_BD("BandoDeDados.json")
+    BD: dict = Carregar_BD("BancoDeDados.json")
 
     while True:
         user_input: str = input("You : ")
