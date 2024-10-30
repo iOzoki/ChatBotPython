@@ -46,3 +46,6 @@ def chatbot():
                 Salvar_BD("BancoDeDados.json", BD)
 
                 print("Obrigado por me ensinar!!")
+
+if __name__ == "__main__":
+    chatbot()
